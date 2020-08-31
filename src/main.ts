@@ -15,7 +15,7 @@ async function run(): Promise<void> {
     }
     const pullRequestNumber = context.payload.pull_request.number
 
-    const octokit = github.getOctokit(githubToken)
+    const octokit = new github.GitHub(githubToken);
 
     octokit.issues.createComment({
       ...context.repo,
