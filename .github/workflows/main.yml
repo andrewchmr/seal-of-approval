@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Seal Of Approval
-      uses: andrewchmr/seal-of-approval@master
+      uses: andrewchmr/seal-of-approval@main
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
