@@ -1,28 +1,30 @@
 {
-  "name": "typescript-action",
+  "name": "seal-of-approval",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Github action that gives seal of approval to your PR.",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts",
-    "package": "ncc build --source-map --license licenses.txt",
-    "test": "jest",
-    "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
+    "pack": "ncc build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/andrewchmr/seal-of-approval.git"
   },
   "keywords": [
     "actions",
-    "node",
-    "setup"
+    "seal",
+    "approval",
+    "github"
   ],
-  "author": "",
+  "author": {
+    "name": "Andriy Chemerynskiy",
+    "url": "https://andrewchmr.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.5"
