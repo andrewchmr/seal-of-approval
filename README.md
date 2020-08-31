@@ -4,7 +4,7 @@ Github action that adds random seal GIF when your PR is approved.
 
 Add this action to your workflow, so it will protect your code from any bugs.
 
-Example: https://github.com/andrewchmr/seal-of-approval/pull/4
+[Checkout this sample PR](https://github.com/andrewchmr/seal-of-approval/pull/4)
 
 ## Usage
 
