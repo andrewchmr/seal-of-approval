@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Seal Of Approval Github Action" src="https://raw.githubusercontent.com/andrewchmr/seal-of-approval/main/Seal.png?token=AKO7TEISX332HIODC33GIJC7J2D2A">
+  <img alt="Seal Of Approval Github Action" src="/Seal.png">
 </p>
 
 # Seal Of Approval
